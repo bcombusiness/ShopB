@@ -1,0 +1,4 @@
+
+.dropdown_arrow_none::after{
+    display: none;
+}

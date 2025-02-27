@@ -1,0 +1,45 @@
+
+
+.header_box{
+    background-color: var(--web_color);
+    padding: 0 var(--web_padding);
+}
+
+.header_top{
+
+}
+
+.header_top nav{
+    padding: 0 !important;
+}
+
+.header_top .breadcrumb-item::before{
+    color: var(--text_color);
+    opacity: .5;
+}
+
+.header_top a{
+    text-decoration: none;
+    color: var(--text_color);
+}
+
+.breadcrumb-item li a{
+    color: black;
+}
+
+#header_top_avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+
+.header_bottom{
+
+}
+
+#header_bottom_cart{
+    color: white;
+    text-decoration: none;
+}
