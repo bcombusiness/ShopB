@@ -43,3 +43,14 @@
     color: white;
     text-decoration: none;
 }
+
+.header_bottom_search_box .breadcrumb-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.header_bottom_search_btn, .header_bottom_search_btn:hover{
+    border: 3px solid white;
+    color: white;
+}
+

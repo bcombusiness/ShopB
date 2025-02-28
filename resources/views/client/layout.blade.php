@@ -68,13 +68,32 @@
             </nav>
         </div>
 
-        <div class="header_bottom row">
+        <div class="header_bottom pb-2 row">
 
             <div class="col-2">
-                <img src="http://127.0.0.1:8000/asset/upload/system/logo-removebg-preview.png" alt="">
+                <a href="#">
+                    <img src="http://127.0.0.1:8000/asset/upload/system/logo-removebg-preview.png" alt="">
+                </a>
             </div>
-            <div class="col-8"></div>
-            <div class="col-2 d-flex justify-content-center align-items-center">
+            <div class="col-9 d-flex justify-content-center align-items-center">
+
+                <div class="header_bottom_search_box" style="display: inline; width: 90%; margin-top: auto">
+                    <div class="input-group mb-1">
+                    <input type="text" class="form-control" placeholder="Tìm kiếm ..." aria-label="Tìm kiếm ..." aria-describedby="button-addon2">
+                    <button class="header_bottom_search_btn btn" type="button" id="button-addon2">Tìm kiếm</button>
+                    </div>
+    
+                    <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="#">Máy tính</a></li>
+                        <li class="breadcrumb-item"><a href="#">Điện thoại</a></li>
+                        <li class="breadcrumb-item"><a href="#">Laptop</a></li>
+                    </ol>
+                    </nav>
+                </div>
+
+            </div>
+            <div class="col-1 d-flex justify-content-center align-items-center">
                 <div class="dropdown-center">
                 <a id="header_bottom_cart" href="#" type="button" class="pe-2 dropdown_arrow_none dropdown-toggle"
                 data-bs-toggle="dropdown" aria-expanded="false">
