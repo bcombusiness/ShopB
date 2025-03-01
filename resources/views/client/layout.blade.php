@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="{{ asset('asset/client/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/client/css/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/client/css/home_slide.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/client/css/constant.css') }}">
     <link rel="stylesheet" href="{{ asset('asset/client/css/main.css') }}">
 
@@ -111,6 +112,55 @@
 
     </div>
 
+
+    <div class="home_slide_box">
+
+        <div class="home_slide row">
+
+            <div class="col-8">
+
+                <div id="carouselExampleIndicators" class="w-100 carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="http://127.0.0.1:8000/asset/upload/system/sg-11134258-7rd67-m6q9j4mo404b0c.jpg" class="d-block w-100 h-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="http://127.0.0.1:8000/asset/upload/system/sg-11134258-7rd72-m6q9j3cbzrc16b.jpg" class="d-block w-100 h-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="http://127.0.0.1:8000/asset/upload/system/vn-11134258-7ra0g-m6qr4ibumf5k9c.jpg" class="d-block w-100 h-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+            <div class="col-4 row pe-0">
+
+                <div class="col-12 p-0">
+                    <img class="w-100" src="http://127.0.0.1:8000/asset/upload/system/sg-11134258-7rd5u-m6p3yoetks2p1d.jpg" width="100%" alt="">
+                </div>
+                <div class="col-12 p-0">
+                    <img class="w-100" src="http://127.0.0.1:8000/asset/upload/system/sg-11134258-7rd3y-m6p3yqg2n18s70.jpg" width="100%" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 
 </body>
